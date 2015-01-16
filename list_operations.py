@@ -65,22 +65,21 @@ def last_five(input_list):
         Return the last five elements of the input list.
         [ A, B, C, D, E, F ] --> [ B, C, D, E, F ]
     """
-    pass
+    return input_list[-5:]
 
 def middle(input_list):
     """
         Return all elements of the input list except the first two and the last two.
         [ A, B, C, D, E, F ] --> [ C, D ]
     """
-    pass
+    return input_list[2:-2]
 
 def inner_four(input_list):
     """
         Return the third, fourth, fifth, and sixth elements of the input list.
         [ A, B, C, D, E, F, G ] --> [ C, D, E, F ]
     """
-
-    pass
+    return input_list[2:6]
 
 def inner_four_end(input_list):
     """
