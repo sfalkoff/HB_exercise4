@@ -131,7 +131,8 @@ def delete_middle(input_list):
         last two.
          [ A, B, C, D, E, F, G, H ] --> [ A, B, G, H ]
     """
-    pass
+    del input_list[2:-2]
+    return input_list
 
 """
 Part 1 is finished! Ask for a code review before proceeding to Part 2.
