@@ -46,7 +46,7 @@ def init(input_list):
         Return all elements of the input list except the last.
         [ A, B, C, D ] --> [ A, B, C ]
     """
-    pass
+    return input_list[:-1]
 
 """
 Do yourself a favor and get a short code review here.
@@ -58,7 +58,7 @@ def first_three(input_list):
         Return the first three elements of the input list.
         [ A, B, C, D, E, F ] --> [ A, B, C ]
     """
-    pass
+    return input_list[0:3]
 
 def last_five(input_list):
     """
